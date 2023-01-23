@@ -1,0 +1,88 @@
+.LegalSolutions_main{
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 80%;
+    padding-bottom: 70px;
+    .legal{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .birinci{
+        img{
+            height: 400px;
+        }
+        }
+        .ikinci{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            height: 40vh;
+            margin: 0 auto;
+            padding-left: 30px;
+            #p1{
+                font-size: 20px;
+                width: 50%;
+                color: #364d59 !important;
+            }
+            #p2{
+                font-size: 17px;
+                width: 95%;
+                color: #364d59 !important;
+            }
+            #p3{
+                color: #364d59 !important;
+                font-size: 17px;
+                width: 95%;
+            }
+            .iconlu{
+                .ic{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    color: #364d59 !important;
+                    p{
+                        margin-top: 10px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+        .ucuncu{
+            display: flex;
+            flex-direction: column;
+            margin-top: -230px;
+            .dropdown{
+                
+                #bitien{
+                    font-family: inherit;
+                    background-color: transparent;
+                    border-color: #efefef;
+                    color: #999;
+                    text-align: left;
+                    width: 350px;
+                    font-size: 1.6rem;
+                    padding: 10px 20px;
+                    margin-bottom: 10px;
+                    transition: all .3s;
+                    &:hover{
+                        color: black;
+                        transition: all .3s;
+                    }
+                }
+            }
+            .dropdown-menu{
+                font-size: 18px;
+                padding: 10px 20px;
+                text-align: left;
+                background-color: rgb(245, 245, 245);
+                color: #888;
+                height: 250px;
+                transition: all .4s;
+                
+            }
+        }
+    }
+}

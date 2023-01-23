@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.MainNav{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    height: 10vh;
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+       
+        
+        .logokimi{
+           margin-left:-100px;
+           h1{
+            font-size: 30px;
+           }
+        }
+        .linkler{
+            margin-left: 500px;
+            margin-top: 24px;
+            .stil{
+                text-decoration: none;
+                color: black;
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
