@@ -10,6 +10,10 @@ const router = createBrowserRouter([
     {
       path: "/addpage",
       element: <AddPage/>,
+    },
+    {
+      path: "/cards/:id",
+      element: <AddPage/>,
     }
   ]);
 
